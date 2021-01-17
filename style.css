@@ -1,0 +1,855 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 1500px) {
+	header{
+		overflow: hidden;
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		background-color: #fff;
+	}
+
+	.main{
+		background-image: url(contactbg.jpg);
+		background-position: top;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.header-logo{
+		width: 30%;
+		float: left;
+	}
+
+	.main-menu{
+		width: 70%;
+		float: left;
+	}
+
+	.main-menu ul li a{
+		color: #de0000;
+	}
+
+	.main-menu ul li a:hover{
+		color: black;
+	}
+
+	.main-menu ul{
+	float: right;
+	}
+
+	.main-menu ul li {
+	list-style: none;
+	float: left;
+	}
+
+	.main-menu ul li a {
+	text-decoration: none;
+	margin-left: 30px;
+	}
+
+	.hero-section {
+		overflow: hidden;
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+
+	.hero-heading{
+		font-size: 48px;
+		color: white;
+	}
+
+	.hero-text{
+		font-size: 18px;
+		padding-left: 20%;
+		padding-right: 20%;
+		margin-top: -20px;
+		color: white;
+	}
+
+	button{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: #de0000;
+		color: white;
+		border: none;
+		font-family: 'Poppins', sans-serif;
+		font-size: 16px;
+		margin-top: 10px;
+	}
+
+	button:hover{
+		background-color: black;
+	}
+
+	.feature-section{
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left: 5%;
+		padding-right: 5%;
+		overflow: hidden;
+	}
+
+	.feature-left{
+		width: 40%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.spacer{
+		width: 5%;
+		float: left;
+	}
+
+	.feature-right{
+		width: 55%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.feature-heading{
+		font-size: 36px;
+	}
+
+	.feature-text{
+		font-size: 18px;
+	}
+
+	.services-section{
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left: 5%;
+		padding-right: 5%;
+		overflow: hidden;
+		background-image: url(servicebg.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.services-left{
+		width: 55%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.services-right{
+		width: 40%;
+		float: left;
+		overflow: hidden;
+
+	}
+
+	.services-heading{
+		font-size: 36px;
+		color: white;
+	}
+
+	.services-text{
+		font-size: 18px;
+		color: #fefefe;
+	}
+
+	.testi-section{
+		padding-top: 30px;
+		padding-bottom: 100px;
+		padding-left: 5%;
+		padding-right: 5%;
+		overflow: hidden;
+	}
+
+	.testi-section-left{
+		width: 30%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.testi-spacer{
+		width: 5%;
+		float: left;
+	}
+
+	.testi-section-center{
+		width: 30%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.testi-section-right{
+		width: 30%;
+		float: left;
+		overflow: hidden;
+	}
+
+	/** Testimonial left CSS **/
+
+	.testi-img1{
+		width: 15%;
+		float: left;
+	}
+
+	.testi-name1{
+		width: 85%;
+		float: left;
+		overflow: hidden;
+		padding-top: 5px;
+	}
+
+	.testi-name-text1{
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	.testi-position-text1{
+		font-size: 12px;
+		margin-top: -10px;
+	}
+
+	/** Testimonial center CSS **/
+
+	.testi-img2{
+		width: 15%;
+		float: left;
+	}
+
+	.testi-name2{
+		width: 85%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.testi-name-text2{
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	.testi-position-text2{
+		font-size: 12px;
+		margin-top: -10px;
+	}
+
+/** Testimonial center CSS **/
+
+	.testi-img3{
+		width: 15%;
+		float: left;
+	}
+
+	.testi-name3{
+		width: 85%;
+		float: left;
+		overflow: hidden;
+		padding-top: 5px;
+	}
+
+	.testi-name-text3{
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	.testi-position-text3{
+		font-size: 12px;
+		margin-top: -10px;
+	}
+
+	.testi-heading{
+		font-size: 36px;
+		padding-bottom: 30px;
+	}
+
+	ol li{
+		font-size: 18px;
+		color: white;
+	}
+
+	.feature-li li{
+		font-size: 18px;
+		color: black;
+	}
+
+	.contact-section{
+		padding-top: 150px;
+		padding-bottom: 150px;
+		padding-left: 5%;
+		padding-right: 5%;
+		overflow: hidden;
+		background-image: url(mainbg.png);
+	}
+
+	.contact-heading{
+		font-size: 48px;
+		color: white;
+	}
+
+	.contact-text{
+		font-size: 18px;
+		padding-left: 20%;
+		padding-right: 20%;
+		margin-top: -20px;
+		color: white;
+	}
+
+	.copyright-text{
+		font-size: 12px;
+		color: #de0000;
+		font-weight: 500;
+		padding-left: 5%
+		padding-right: 5%;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	.main-menu ul li a {
+	text-decoration: none;
+	margin-left: 30px;
+	font-size: 14px;
+	}
+
+	.hero-section {
+		overflow: hidden;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.hero-heading{
+		font-size: 36px;
+		color: white;
+	}
+
+	.hero-text{
+		font-size: 16px;
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-top: -20px;
+		color: white;
+	}
+
+	button{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: #de0000;
+		color: white;
+		border: none;
+		font-family: 'Poppins', sans-serif;
+		font-size: 16px;
+		margin-top: 10px;
+	}
+
+
+	/** Feature Section Starts here **/
+
+	.feature-section{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 5%;
+		padding-right: 5%;
+		overflow: hidden;
+	}
+
+	.feature-left{
+		width: 40%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.spacer{
+		width: 5%;
+		float: left;
+	}
+
+	.feature-right{
+		width: 55%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.feature-heading{
+		font-size: 28px;
+		line-height: 28px;
+	}
+
+	.feature-text{
+		font-size: 18px;
+	}
+
+	/** Services Section Starts here **/
+
+	.services-section{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 5%;
+		padding-right: 5%;
+		overflow: hidden;
+		background-image: url(servicebg.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.services-left{
+		width: 55%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.services-right{
+		width: 40%;
+		float: left;
+		overflow: hidden;
+
+	}
+
+	.services-heading{
+		font-size: 28px;
+		line-height: 28px;
+		color: white;
+	}
+
+	.services-text{
+		font-size: 18px;
+		color: #fefefe;
+	}
+
+	.services-img{
+		padding-right: 50px;
+	}
+
+	/** Testimonials Section Starts here **/
+
+	.testi-section{
+		padding-top: 30px;
+		padding-bottom: 100px;
+		padding-left: 5%;
+		padding-right: 5%;
+		overflow: hidden;
+	}
+
+	.testi-section-left{
+		width: 30%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.testi-spacer{
+		width: 5%;
+		float: left;
+	}
+
+	.testi-section-center{
+		width: 30%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.testi-section-right{
+		width: 30%;
+		float: left;
+		overflow: hidden;
+	}
+
+	/** Testimonial left CSS **/
+
+	.testi-img1{
+		width: 30%;
+		float: left;
+	}
+
+	.testi-name1{
+		width: 70%;
+		float: left;
+		overflow: hidden;
+		padding-top: 5px;
+	}
+
+	.testi-name-text1{
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	.testi-position-text1{
+		font-size: 12px;
+		margin-top: -10px;
+	}
+
+	/** Testimonial center CSS **/
+
+	.testi-img2{
+		width: 30%;
+		float: left;
+	}
+
+	.testi-name2{
+		width: 70%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.testi-name-text2{
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	.testi-position-text2{
+		font-size: 12px;
+		margin-top: -10px;
+	}
+
+/** Testimonial center CSS **/
+
+	.testi-img3{
+		width: 30%;
+		float: left;
+	}
+
+	.testi-name3{
+		width: 70%;
+		float: left;
+		overflow: hidden;
+		padding-top: 5px;
+	}
+
+	.testi-name-text3{
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	.testi-position-text3{
+		font-size: 12px;
+		margin-top: -10px;
+	}
+
+	.testi-headging{
+		font-size: 36px;
+		padding-bottom: 30px;
+	}
+
+	/** Contact Section Starts here **/
+
+
+	.contact-section{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 5%;
+		padding-right: 5%;
+		overflow: hidden;
+		background-image: url(mainbg.png);
+	}
+
+	.contact-heading{
+		font-size: 36px;
+		color: white;
+	}
+
+	.contact-text{
+		font-size: 16px;
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-top: -20px;
+		color: white;
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+	header{
+		height: 50px;
+	}
+
+	.header-logo{
+		width: 100%;
+		float: left;
+		text-align: center;
+	}
+
+	.main-menu{
+		width: 100%;
+		float: left;
+		visibility: hidden;
+		overflow: hidden;
+	}
+
+	.main-menu ul li a {
+	text-decoration: none;
+	margin-left: 30px;
+	font-size: 14px;
+	}
+
+	.hero-section {
+		overflow: hidden;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.hero-heading{
+		font-size: 24px;
+		color: white;
+	}
+
+	.hero-text{
+		font-size: 14px;
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-top: -10px;
+		color: white;
+	}
+
+	button{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: #de0000;
+		color: white;
+		border: none;
+		font-family: 'Poppins', sans-serif;
+		font-size: 16px;
+		margin-top: 10px;
+	}
+
+
+	/** Feature Section Starts here **/
+
+	.feature-section{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 5%;
+		padding-right: 5%;
+		overflow: hidden;
+	}
+
+	.feature-left{
+		width: 100%;
+		height: 300px;
+		float: left;
+		overflow: hidden;
+	}
+
+	.jobspic{
+		width: 100%;
+		height: auto;
+	}
+
+	.feature-li li{
+		font-size: 14px;
+	}
+
+	ol li{
+		font-size: 14px;
+		color: white;
+	}
+
+	.spacer{
+		width: 5%;
+	}
+
+	.feature-right{
+		width: 100%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.feature-heading{
+		font-size: 24px;
+		line-height: 24px;
+	}
+
+	.feature-text{
+		font-size: 14px;
+	}
+
+	/** Services Section Starts here **/
+
+	.services-section{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 5%;
+		padding-right: 5%;
+		overflow: hidden;
+		background-image: url(servicebg.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.services-left{
+		width: 100%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.services-right{
+		width: 100%;
+		float: left;
+		overflow: hidden;
+
+	}
+
+	.services-heading{
+		font-size: 24px;
+		line-height: 24px;
+		color: white;
+	}
+
+	.services-text{
+		font-size: 14px;
+		color: #fefefe;
+	}
+
+	.services-img{
+		width: 100%;
+		height: auto;
+	}
+
+	/** Testimonials Section Starts here **/
+
+	.testi-section{
+		padding-top: 30px;
+		padding-bottom: 100px;
+		padding-left: 5%;
+		padding-right: 5%;
+		overflow: hidden;
+	}
+
+	.testi-section-left{
+		width: 100%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.testi-spacer{
+		width: 40px;
+	}
+
+	.testi-section-center{
+		width: 100%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.testi-section-right{
+		width: 100%;
+		float: left;
+		overflow: hidden;
+	}
+
+	/** Testimonial left CSS **/
+
+	.testi-img1{
+		width: 20%;
+		float: left;
+	}
+
+	.testi-name1{
+		width: 80%;
+		float: left;
+		overflow: hidden;
+		padding-top: 5px;
+	}
+
+	.testi-name-text1{
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	.testi-position-text1{
+		font-size: 12px;
+		margin-top: -10px;
+	}
+
+	/** Testimonial center CSS **/
+
+	.testi-img2{
+		width: 20%;
+		float: left;
+	}
+
+	.testi-name2{
+		width: 80%;
+		float: left;
+		overflow: hidden;
+	}
+
+	.testi-name-text2{
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	.testi-position-text2{
+		font-size: 12px;
+		margin-top: -10px;
+	}
+
+/** Testimonial center CSS **/
+
+	.testi-img3{
+		width: 20%;
+		float: left;
+	}
+
+	.testi-name3{
+		width: 80%;
+		float: left;
+		overflow: hidden;
+		padding-top: 5px;
+	}
+
+	.testi-name-text3{
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	.testi-position-text3{
+		font-size: 12px;
+		margin-top: -10px;
+	}
+
+	.testi-heading{
+		font-size: 24px;
+		padding-bottom: 30px;
+	}
+
+	/** Contact Section Starts here **/
+
+
+	.contact-section{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 5%;
+		padding-right: 5%;
+		overflow: hidden;
+		background-image: url(mainbg.png);
+	}
+
+	.contact-heading{
+		font-size: 24px;
+		color: white;
+	}
+
+	.contact-text{
+		font-size: 14px;
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-top: -20px;
+		color: white;
+	}
+
+	.copyright-section{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+}
+
+
+
